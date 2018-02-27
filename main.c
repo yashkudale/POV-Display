@@ -28,9 +28,6 @@
 #pragma config IESO = ON        // Internal External Switchover bit (Internal External Switchover mode is enabled)
 #pragma config FCMEN = ON       // Fail-Safe Clock Monitor Enabled bit (Fail-Safe Clock Monitor is enabled)
 
-//#define _XTAL_FREQ 2000000
-//#define _XTAL_FREQ 31000
-//#define _XTAL_FREQ 4000000
 #define _XTAL_FREQ 8000000
 
 int8_t _[] = {0,0,0,0,0, 0,0,0,0,0, 0,0,0,0,0};
